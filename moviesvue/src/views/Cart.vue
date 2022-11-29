@@ -36,7 +36,7 @@
 
                 <hr>
 
-                <router-link to="/cart/checkout" class="button is-dark">Pagar</router-link>
+                <router-link to="/cart/checkout" class="button is-dark" id="bottonsblue">Pagar</router-link>
             </div>
         </div>
     </div>
@@ -80,3 +80,9 @@ export default {
     }
 }
 </script>
+
+<style>
+  #bottonsblue{
+  background-color: #093276;
+}
+</style>

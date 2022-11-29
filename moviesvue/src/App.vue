@@ -1,6 +1,6 @@
 <template>
   <div id="wrapper">
-    <nav class="navbar is-dark">
+    <nav class="navbar is-dark" id="navbarsneaker">
       <div class="navbar-brand">
         <router-link to="/" class="navbar-item"><strong>Sneaker Hunters</strong></router-link>
 
@@ -14,14 +14,37 @@
       <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active': showMobileMenu }">
         <div class="navbar-start">
           <div class="navbar-item">
-            <form method="get" action="/search">
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#AcercaDeNosotros" style="color: white">Acerca de nosotros</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#PreguntasFrecuentes" style="color: white">FAQ</a>
+            </li>
+            <p style="color: black">...</p>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><router-link to="/nike" class="navbar-item">Nike</router-link></li>
+              <li><router-link to="/adidas" class="navbar-item">Adidas</router-link></li>
+            </ul>
+          </li>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+
+          <div class="navbar-item">
+            <div class="buttons">
+              <form method="get" action="/search">
               <div class="field has-addons"> 
-                <div class="control">
+                <div class="control" >
                   <input type="text" class="input" placeholder="Buscar" name="query">
                 </div>
 
-                <div class="control">
-                  <button class="button is-success">
+                <div class="control" >
+                  <button class="button is-success" id="bottonsblue">
                       <span class="icon">
                       <i class="fas fa-search"></i>
                       </span>
@@ -29,15 +52,8 @@
                 </div>
               </div>
             </form>
-          </div>
-        </div>
-
-        <div class="navbar-end">
-          <router-link to="/nike" class="navbar-item">Nike</router-link>
-          <router-link to="/adidas" class="navbar-item">Adidas</router-link>
-
-          <div class="navbar-item">
-            <div class="buttons">
+            <p style="color: black">...</p>
+            
               <template v-if="$store.state.isAuthenticated">
                 <router-link to="/my-account" class="button is-light">Mi cuenta</router-link>
               </template>
@@ -46,7 +62,7 @@
                 <router-link to="/log-in" class="button is-light">Iniciar sesion</router-link>
               </template>
 
-              <router-link to="/cart" class="button is-success">
+              <router-link to="/cart" class="button is-success" id="bottonsblue">
                 <span class="icon"><i class="fas fa-shopping-cart"></i></span>
                 <span>Carrito ({{ cartTotalLength }})</span>
               </router-link>
@@ -59,7 +75,6 @@
     <div class="is-loading-bar has-text-centered" v-bind:class="{'is-loading': $store.state.isLoading }">
       <div class="lds-dual-ring"></div>
     </div>
-
     <section class="section">
       <router-view/>
     </section>
@@ -146,5 +161,14 @@ export default{
     height: 80px;
   }
 }
+#navbarsneaker{
+  background-color: #000;
+}
+
+#bottonsblue{
+  background-color: #093276;
+}
 </style>
+
+#solocolornegro{}
 

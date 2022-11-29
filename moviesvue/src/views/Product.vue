@@ -22,7 +22,7 @@
                     </div>
 
                     <div class="control">
-                        <a class="button is-dark" @click="addToCart()">Agregar</a>
+                        <a class="button is-dark" @click="addToCart()" id="bottonsblue">Agregar</a>
                     </div>
                 </div>
             </div>
@@ -88,3 +88,9 @@ export default {
     }
 }
 </script>
+
+<style>
+  #bottonsblue{
+  background-color: #093276;
+}
+</style>
