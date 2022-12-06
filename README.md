@@ -20,7 +20,13 @@
 <img src="Img Readme/adidas.PNG"></img>
 <h2>Inicio de sesion y registro</h2>
 <p>La siguiente corresponde a la pagina de inicio de sesion y registro la cual es necesario tener cuenta para poder realizar una compra</p>
-<img width="50%" src="Img Readme/sesion.PNG"></img>
-<img width="50%" src="Img Readme/registrarse.PNG"></img>
+<img width="75%" src="Img Readme/sesion.PNG"></img>
+<img width="75%" src="Img Readme/registrarse.PNG"></img>
+<h2>Carrito</h2>
+<p>La siguiente imagen corresponde al carrito al cual podemos ir agregando distintos productos para despues proceder a pagar</p>
+<img src="Img Readme/carrito.PNG">
+<h2>Pago</h2>
+<p>La siguiente imagen corresponde al pago del carrito</p>
+<img src="Img Readme/pago.PNG">
 
 
