@@ -18,7 +18,7 @@
 <img src="Img Readme/nike.png"></img>
 <p>La siguiente corresponde a la categoria Adidas:</p>
 <img src="Img Readme/adidas.PNG"></img>
-<h2>Inicio de sesion</h2>
+<h2>Inicio de sesion y registro</h2>
 <p>La siguiente corresponde a la pagina de inicio de sesion y registro la cual es necesario tener cuenta para poder realizar una compra</p>
 <img width="50%" src="Img Readme/sesion.PNG"></img>
 <img width="50%" src="Img Readme/registrarse.PNG"></img>
