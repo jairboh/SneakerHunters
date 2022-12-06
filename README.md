@@ -20,6 +20,7 @@
 <img src="Img Readme/adidas.PNG"></img>
 <h2>Inicio de sesion</h2>
 <p>La siguiente corresponde a la pagina de inicio de sesion y registro la cual es necesario tener cuenta para poder realizar una compra</p>
-<span><img width="50%" src="Img Readme/sesion.PNG"></img></span><img width="50%" src="Img Readme/registrarse.PNG"></img>
+<img width="50%" src="Img Readme/sesion.PNG"></img>
+<img width="50%" src="Img Readme/registrarse.PNG"></img>
 
 
