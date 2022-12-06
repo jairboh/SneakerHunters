@@ -28,5 +28,3 @@
 <h2>Pago</h2>
 <p>La siguiente imagen corresponde al pago del carrito</p>
 <img src="Img Readme/pago.PNG">
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=FbGyUfyR15Y&ab_channel=theneedledrop)
-
